@@ -4,9 +4,9 @@
 using namespace std;
 
 void displayVector1D(vector<int>& Matrix) {
-// for(int a = 0; a < Matrix.size(); a++) {
-    for(int a : Matrix) { // Better! // http://www.cplusplus.com/forum/beginner/108606/
-        cout << Matrix[a] << " ";
+// for(int position = 0; position < Matrix.size(); position++) {
+    for(int element : Matrix) { // element = Matrix[position] // Better! // http://www.cplusplus.com/forum/beginner/108606/
+        cout << element << " ";
         }
     }
 
